@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+  <title>KhrisU Portfolio</title>
+  <meta name="description" content="Front-end developer based in Venezuela.">
+  <meta name="keywords" content="html, React, javascript, css, front-end" />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <span>KhrisU</span>
+        </h1>
+        <p>A Front-End Web Developer living in Venezuela.</p>
+        <a href="#contact" class="btn btn--pink">Contact Me</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>Tijuana's Food</h3>
+              <p>
+              I designed and deployed a webpage for a Tex-Mex fusion cuisine restaurant in Venezuela.
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>React</li>
+                <li>JavaScript</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://tijuanasfood.netlify.app" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/phenomenoyde/tijuanas-food" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>IMA Pastisserie</h3>
+              <p>
+                I'm currently working on a new website for a pastry and haute confectionery business
+              </p>
+              <ul class="work__list">
+                <li>html5</li>
+                <li>css3</li>
+                <li>javascript</li>
+              </ul>
+
+              <div class="work__links" disabled>
+                <a href="#" class="link__text" >
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="#">
+                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/imalogo.jpg" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <p>
+              Hi! I'm a front-end web developer and biologist based in Venezuela looking to
+              change my career path. I'm a professional with experience in product development
+              and marketing currently working as a freelance web developer, creating projects for small businesses, 
+              my main goal is to be able to find a stable job at a company where I can use my knowledge and creative
+              solutions to help develop web products and or web services through well thoughtout and
+              implemented UX/UI. <br> Being part of a team will help me hone experience and to keep
+              studying to deliver only the best. My interpersonal relationship 
+              skills let me work with and deeply understand all kinds of pleople which is fundamental in a
+              multidisciplinary working environment.
+
+
+</p>
+            <a href="./ECV-UGAS.pdf" download target="_blank" class="btn">My Resume</a>
+          </div>
+
+          <div class="about__photo-container">
+          </div>            <img class="about__photo" src="./images/me.jpg" alt="" />
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          If you're looking for a productive front-end web developer for your
+          business or for any kind of consultation feel free to send me an email.
+        </p>
+        <a href="mailto:khristopheru5@hotmail.com" class="btn">Send me an email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+    
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/phenomenoyde/" target="_blank" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/khristopherugas/" target="_blank">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
